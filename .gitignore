@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Faturas e planilhas geradas (dados pessoais)
+*.pdf
+*.xlsx
+*.xls
+*.csv
+faturas_consolidadas*.xlsx
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Node / Next.js (para quando criar o frontend)
+node_modules/
+.next/
+out/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
